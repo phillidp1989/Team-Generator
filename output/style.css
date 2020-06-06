@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    height: 100%;
+
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+.card {
+    box-shadow: 5px 10px 8px #888888;
+    margin: 30px 30px;
+    max-width: 300px;
+    min-width: 300px;
+    
+}
+
+.jumbotron {
+    border-bottom: #FE6D73  5px solid;
+    background-image: linear-gradient(60deg, #96deda 0%, #50c9c3 100%) !important;
+}
+
+.mb-3 {
+    margin-bottom: 40px !important;
+}
