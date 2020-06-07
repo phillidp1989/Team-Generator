@@ -80,7 +80,7 @@ const roleQuestion = async teamName => {
 
         await writeFileAsync(outputPath, html);
 
-        console.log("\nThank you for using the team generator CLI. Your team summary is available in the 'output' folder\n");
+        console.log(`\nThank you for using the team generator CLI. Your team summary is available at ${outputPath}\n`);
         return;
     }
 
